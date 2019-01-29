@@ -16,18 +16,6 @@ When you're going to start messing with something, create a branch for it.  This
 
 Discussions, comments, and updates can be done on the gitlab merge request page.
 
-**Documentation**
-
-Automatic documentation is being done with `doxygen <www.doxygen.org>`_.  Info to get you started is available in their `manual <http://www.stack.nl/~dimitri/doxygen/manual/index.html>`_.  The config file here is `Doxyfile` in the top level of the folder.  So, compiling the documentation should be as easy as running::
-
-  doxygen /path/to/Doxyfile
-
-Compiled documentation goes into the `doc` folder.  Point your browser to `doc/html/index.html` to see the result.  Don't forget to refresh your browser after you compile the documentation since most browsers (coughchromecough) rely heavily on caching and won't automatically update the page for you, even after you've just opened it.
-
-**Before you push**
-
-- Have you run doxygen to update the documentation?
-- Have you incremented the version number?
 
 **Questions, comments, and other issues**
 

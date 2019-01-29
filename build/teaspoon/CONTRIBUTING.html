@@ -93,17 +93,6 @@
 <p><strong>Basic workflow</strong></p>
 <p>When you’re going to start messing with something, create a branch for it.  This will likely just be done on your local machine.  When you think it’s ready to be merged into the master branch, go to the merge request page on gilab and submit your merge request.</p>
 <p>Discussions, comments, and updates can be done on the gitlab merge request page.</p>
-<p><strong>Documentation</strong></p>
-<p>Automatic documentation is being done with <a class="reference external" href="www.doxygen.org">doxygen</a>.  Info to get you started is available in their <a class="reference external" href="http://www.stack.nl/~dimitri/doxygen/manual/index.html">manual</a>.  The config file here is <cite>Doxyfile</cite> in the top level of the folder.  So, compiling the documentation should be as easy as running:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">doxygen</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">Doxyfile</span>
-</pre></div>
-</div>
-<p>Compiled documentation goes into the <cite>doc</cite> folder.  Point your browser to <cite>doc/html/index.html</cite> to see the result.  Don’t forget to refresh your browser after you compile the documentation since most browsers (coughchromecough) rely heavily on caching and won’t automatically update the page for you, even after you’ve just opened it.</p>
-<p><strong>Before you push</strong></p>
-<ul class="simple">
-<li>Have you run doxygen to update the documentation?</li>
-<li>Have you incremented the version number?</li>
-</ul>
 <p><strong>Questions, comments, and other issues</strong></p>
 <p>…should be sent to <a class="reference external" href="mailto:muncheli&#37;&#52;&#48;egr&#46;msu&#46;edu">Liz Munch</a>.</p>
 </div>

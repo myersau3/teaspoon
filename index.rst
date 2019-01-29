@@ -98,9 +98,9 @@ If the above aren't working, add the following line to your `.bashrc` file.::
 Documentation
 =============
 
-Documentation is done using `doxygen <http://www.doxygen.org>`_.
+Documentation is done using `sphinx <http://www.sphinx-doc.org>`_.
 The most recent version of the `teaspoon documentation is hosted here <http://elizabethmunch.com/code/teaspoon/index.html>`_.
-Further info on documentation can be found in the `contributing <https://gitlab.msu.edu/TSAwithTDA/teaspoon/blob/master/CONTRIBUTING.md>`_ page.
+Further info on documentation can be found under Documentation Instructions.
 
 
 Contributing
